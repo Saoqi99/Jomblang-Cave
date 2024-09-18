@@ -4,7 +4,7 @@ use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
 use App\Models\RadioValue;
 
-Route::get('/', function () {    return view('home');});
+Route::get('/', function () {    return view('welcome');});
 Route::get('/home', function () {    return view('home');});
 Route::get('/rate', function () {    return view('rate');});
 Route::get('/contact', function () {    return view('contact');});
